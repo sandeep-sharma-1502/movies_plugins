@@ -10,7 +10,6 @@
    
     $specific_post_permalink = get_permalink($post_id);
 
-    echo "<h1>Hello</h1>";
 
     echo '<a href="' . $specific_post_permalink . '">SHOW</a>';
 
